@@ -1,0 +1,10 @@
+Understand what this script does
+
+PowerShell command	      Purpose
+Get-VM	                  Retrieves virtual machines
+Get-VMSnapshot	          Retrieves checkpoints
+Get-Date	                Gets current date and time
+AddHours(-74)	            Calculates the 74-hour cutoff
+Where-Object	            Filters expired checkpoints
+
+Important: This script only retrieves and identifies checkpoints. It does not delete anything.
