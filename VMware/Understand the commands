@@ -1,0 +1,9 @@
+Command	                 Purpose
+Connect-VIServer	       Connects to vCenter
+Get-VM	                 Retrieves virtual machines
+Get-Snapshot	           Retrieves snapshots
+Created	                 Snapshot creation date
+AddHours(-74)	Calculates 74-hour cutoff
+Disconnect-VIServer      	Disconnects from vCenter
+
+Important: This is a read-only script. It identifies snapshots older than 74 hours, but does not remove them.
